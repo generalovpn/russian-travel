@@ -1,0 +1,25 @@
+.cover__overlay {
+  max-width: 1184px;
+  max-height: 740px;
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, max-content) 1fr;
+  grid-template-rows: 1fr auto auto 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    max-width: 320px;
+  }
+}

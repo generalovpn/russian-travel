@@ -1,0 +1,14 @@
+.header__lang-link {
+  max-width: 30px;
+  max-height: 28px;
+  display: grid;
+  justify-content: end;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    max-width: 22px;
+    max-height: 20px;
+  }
+}

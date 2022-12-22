@@ -1,0 +1,29 @@
+.header {
+  max-width: 1184px;
+  display: grid;
+  margin: 28px auto 0;
+  grid-template-columns: auto 30px 30px;
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    margin: 28px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 288px;
+    margin: 16px auto 0;
+    grid-template-columns: auto 40px 22px;
+    column-gap: 0;
+  }
+}
