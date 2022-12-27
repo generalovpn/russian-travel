@@ -1,22 +1,10 @@
 .header {
-  max-width: 1184px;
+  max-width: calc(100% - (2*(100% - 92.5%)/2));
+  /* width: 100%; */
+  margin: 28px calc((100% - 92.5%)/2) 0;
   display: grid;
-  margin: 28px auto 0;
-  grid-template-columns: auto 30px 30px;
+  grid-template-columns: 1fr 30px 30px;
   column-gap: 18px;
-}
-
-@media screen and (max-width: 1024px) {
-  .header {
-    max-width: 928px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    max-width: 720px;
-    margin: 28px auto 0;
-  }
 }
 
 @media screen and (max-width: 320px) {

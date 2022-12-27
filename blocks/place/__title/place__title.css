@@ -1,5 +1,6 @@
 .place__title {
   max-width: 460px;
+  width: 100%;
   text-align: start;
   margin: 0;
   line-height: 76px;
@@ -14,24 +15,21 @@
 
 @media screen and (max-width: 1024px) {
   .place__title {
-    max-width: 440px;
-    font-size: 7.1vw;
+    line-height: calc(35px + (41 + 41 * 0.7) * ((100vw - 320px) / 1280));
+    font-size: calc(32px + (40 + 40 * 0.7) * ((100vw - 320px) / 1280));
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 407px) {
   .place__title {
-    max-width: 340px;
-    line-height: 46px;
-    font-size: 5.5vw;
+    max-width: 353px;
+    margin: 0 auto 32px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__title {
     max-width: 288px;
-    line-height: 35px;
-    font-size: 10vw;
-    margin: 0 16px 32px;
+    margin: 0 0 32px 13px;
   }
 }

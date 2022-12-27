@@ -1,7 +1,7 @@
 .place__image {
+  width: 100%;
   max-width: 460px;
-  max-height: 460px;
-  background-size: cover;
+  object-fit: cover;
 }
 
 .place__image:nth-child(2) {
@@ -12,21 +12,31 @@
 @media screen and (max-width: 1024px) {
   .place__image {
     max-width: 440px;
-    max-height: 440px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
     max-width: 340px;
-    max-height: 340px;
+  }
+}
+
+@media screen and (max-width: 407px) {
+  .place__image {
+    max-width: 407px;
+    margin: 0 auto 32px;
+  }
+
+  .place__image:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 3/4;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
     max-width: 320px;
-    max-height: 320px;
+    margin-bottom: 32px;
   }
 
   .place__image:nth-child(2) {

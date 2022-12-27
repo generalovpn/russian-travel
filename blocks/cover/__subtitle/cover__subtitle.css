@@ -10,6 +10,13 @@
   justify-self: center;
 }
 
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    line-height: calc(16px + (6 + 6 * 0.7) * ((100vw - 320px) / 1280));
+    font-size: calc(14px + (4 + 4 * 0.7) * ((100vw - 320px) / 1280));
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;

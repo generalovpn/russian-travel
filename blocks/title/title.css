@@ -1,5 +1,7 @@
 .title {
   max-width: 720px;
+  width: 100%;
+  height: auto;
   text-align: center;
   margin: 0 auto;
 }
@@ -7,6 +9,12 @@
 @media screen and (max-width: 1024px) {
   .title {
     max-width: 77.6%;
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .title {
+    max-width: 92%;
   }
 }
 

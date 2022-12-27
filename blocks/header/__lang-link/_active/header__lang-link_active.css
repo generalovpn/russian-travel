@@ -1,0 +1,9 @@
+.header__lang-link_active {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link_active {
+    margin: 14px 18px 8px 0;
+  }
+}

@@ -1,6 +1,6 @@
 .cover__overlay {
   max-width: 1184px;
-  max-height: 740px;
+  text-decoration: none;
   display: grid;
   grid-template-columns: 1fr minmax(min-content, max-content) 1fr;
   grid-template-rows: 1fr auto auto 1fr;

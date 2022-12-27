@@ -3,17 +3,13 @@
   line-height: 16px;
   font-size: 14px;
   font-weight: 400;
-  display: grid;
-  justify-self: end;
+  float: right;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer__copyright {
-    margin: 0;
+    padding-top: 16px;
     line-height: 14px;
-    font-size: 14px;
-    font-weight: 400;
-    justify-self: start;
-    padding: 16px 0 0;
+    float: none;
   }
 }

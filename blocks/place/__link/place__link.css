@@ -1,0 +1,22 @@
+.place__link {
+  max-width: 456px;
+  width: 100%;
+  margin: 0;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.place__link:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 407px) {
+  .place__link {
+    max-width: 352px;
+  }
+}
