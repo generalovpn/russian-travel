@@ -3,7 +3,6 @@
   min-height: 740px;
   width: 100%;
   background-image: url("../../../images/cover-trains.jpg");
-  background-size: no-repeat;
   background-position: center;
   background-size: cover;
   grid-column: 1/4;
