@@ -8,6 +8,7 @@
   grid-column: 2/3;
   grid-row: 3/4;
   justify-self: center;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {

@@ -6,9 +6,9 @@
   float: right;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 687px) {
   .footer__copyright {
-    padding-top: 16px;
+    margin-top: 16px;
     line-height: 14px;
     float: none;
   }

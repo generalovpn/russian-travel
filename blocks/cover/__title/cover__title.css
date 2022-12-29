@@ -8,6 +8,7 @@
   grid-column: 2/3;
   grid-row: 2/3;
   align-self: end;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
@@ -20,8 +21,8 @@
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 288px;
-    line-height: 32px;
-    font-size: 10vw;
+    line-height: 35px;
+    font-size: 32px;
     align-self: start;
   }
 }
