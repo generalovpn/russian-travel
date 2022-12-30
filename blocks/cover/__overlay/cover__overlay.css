@@ -1,25 +1,30 @@
 .cover__overlay {
   max-width: 1184px;
+  min-height: 740px;
   text-decoration: none;
-  display: grid;
-  grid-template-columns: 1fr minmax(min-content, max-content) 1fr;
-  grid-template-rows: 1fr auto auto 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
     max-width: 1024px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
     max-width: 768px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__overlay {
     max-width: 320px;
+    min-height: 200px;
   }
 }

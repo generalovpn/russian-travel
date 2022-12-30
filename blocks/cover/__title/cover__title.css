@@ -5,9 +5,6 @@
   font-size: 72px;
   font-weight: 900;
   color: #FFFFFF;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  align-self: end;
   z-index: 1;
 }
 
@@ -23,6 +20,5 @@
     max-width: 288px;
     line-height: 35px;
     font-size: 32px;
-    align-self: start;
   }
 }

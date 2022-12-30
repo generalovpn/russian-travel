@@ -3,10 +3,6 @@
   line-height: 29px;
   font-size: 18px;
   font-weight: 400;
-  word-wrap: break-word;
-}
-
-.place__paragraph:first-child {
   margin-bottom: 26px;
 }
 
